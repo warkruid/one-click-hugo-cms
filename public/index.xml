@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Warkruids ramblings</title>
+    <title>Warkruid&#39;s ramblings</title>
     <link>http://www.warkruid.com/</link>
-    <description>Recent content on Warkruids ramblings</description>
+    <description>Recent content on Warkruid&#39;s ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Mar 2022 18:36:53 +0200</lastBuildDate><atom:link href="http://www.warkruid.com/index.xml" rel="self" type="application/rss+xml" />
