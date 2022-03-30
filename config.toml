@@ -1,0 +1,4 @@
+baseURL = 'http://www.warkruid.com/'
+languageCode = 'en-us'
+title = 'Warkruids ramblings'
+theme = 'ananke'

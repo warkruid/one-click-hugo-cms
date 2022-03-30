@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Warkruids ramblings</title>
+    <link>http://www.warkruid.com/posts/</link>
+    <description>Recent content in Posts on Warkruids ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Mar 2022 18:36:53 +0200</lastBuildDate><atom:link href="http://www.warkruid.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://www.warkruid.com/posts/my-first-post/</link>
+      <pubDate>Wed, 30 Mar 2022 18:36:53 +0200</pubDate>
+      
+      <guid>http://www.warkruid.com/posts/my-first-post/</guid>
+      <description>Yah! I am posting</description>
+    </item>
+    
+  </channel>
+</rss>
