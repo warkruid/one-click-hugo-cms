@@ -10,7 +10,7 @@ Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
 
-languages]
+[languages]
   [languages.en]
     title = "Warkruid's Experiments"
     weight = 1
