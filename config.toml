@@ -2,6 +2,7 @@ baseURL = 'http://www.warkruid.com/'
 languageCode = 'en-us'
 title = "Warkruid's experiments"
 theme = 'ananke'
+#theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
