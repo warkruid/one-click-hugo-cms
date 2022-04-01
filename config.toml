@@ -16,14 +16,14 @@ enableRobotsTXT = true
     title = "Warkruid's Experiments"
     weight = 1
     contentDir = "content/en"
-  [languages.nl]
-    title = "Warkruid's Experimenten"
-    weight = 2
-    contentDir = "content/nl"
-  [languages.it]
-    title = "Esperimenti di Warkruid"
-    weight = 1
-    contentDir = "content/it"
+#  [languages.nl]
+#    title = "Warkruid's Experimenten"
+#    weight = 2
+#    contentDir = "content/nl"
+#  [languages.it]
+#    title = "Esperimenti di Warkruid"
+#    weight = 3
+#    contentDir = "content/it"
 
 [sitemap]
     changefreq = "monthly"
