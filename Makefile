@@ -11,6 +11,7 @@ test: build
 	hugo server -D
 
 build:
+	git pull
 	hugo
 
 # make a new post
