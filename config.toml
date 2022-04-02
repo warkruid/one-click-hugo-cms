@@ -18,12 +18,17 @@ enableRobotsTXT = true
     contentDir = "content/en"
 [languages.nl]
     title = "Warkruid's Experimenten"
-    weight = 2
+    weight = 1
     contentDir = "content/nl"
 [languages.it]
     title = "Esperimenti di Warkruid"
-    weight = 3
+    weight = 1
     contentDir = "content/it"
+[languages.to]
+    title = "lipu Warkruid"
+    weight = 1
+    contentDir = "content/to"
+
 
 [sitemap]
     changefreq = "monthly"
@@ -35,7 +40,7 @@ enableRobotsTXT = true
     author = "Warkruid"
     favicon = ""
     site_logo = ""
-    description = "Ramblings about technology and everything else"
+    description = "Ramblings about technology, languages and everything else"
     background_color_class = "bg-black"
     recent_posts_number = 3
 
