@@ -25,7 +25,7 @@ enableRobotsTXT = true
     weight = 1
     contentDir = "content/it"
 [languages.to]
-    title = "lipu Warkruid"
+    title = "lipu Wakui"
     weight = 1
     contentDir = "content/to"
 
