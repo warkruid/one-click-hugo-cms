@@ -1,2 +1,4 @@
 public/
 tokenfile
+resources/
+.hugo_build.lock
