@@ -2,3 +2,4 @@ public/
 tokenfile
 resources/
 .hugo_build.lock
+themes/ananke/
