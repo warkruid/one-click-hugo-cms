@@ -1,6 +1,9 @@
 SHELL=/bin/bash
+# This is very much a work in progress
 
 # make sure Make does not barf on unknown command
+# I found this hack on stackoverflow some time ago,
+# but cant find the exact url anymore
 %:
 	#:
 	
