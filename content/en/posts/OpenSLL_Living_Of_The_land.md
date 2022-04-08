@@ -1,7 +1,7 @@
 ---
 title: "OpenSLL_Living_Of_The_land"
 date: 2022-04-08T09:18:12+02:00
-draft: true
+draft: false
 ---
 
 There was a question on stackoverflow about the OpenSSL s_client functionality in relation to SMTP mail.
@@ -49,9 +49,6 @@ QUIT\r
 
 This set of commands is fired blindly at openssl and there is no way to detect if something goes wrong.
 It succeeds or not.
-
-
-
 
 
 
