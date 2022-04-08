@@ -1,5 +1,5 @@
 ---
-title: "OpenSLL_Living_Of_The_land"
+title: "OpenSLL: Living Of The Land"
 date: 2022-04-08T09:18:12+02:00
 draft: false
 ---
