@@ -9,3 +9,8 @@ lupu pona
 jo ijo ike
 jan lon monsi len
 ```
+```
+Good book
+has bad things
+people hide behind
+```
