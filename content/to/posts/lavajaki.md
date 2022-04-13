@@ -6,8 +6,8 @@ draft: false
 
 ```
 lawa jaki
-piku pona e
-tempo ale
+pillin pona e
+tenpo ale
 ```
 ```
 A dirty mind
