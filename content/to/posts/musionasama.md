@@ -11,6 +11,6 @@ epika pakala seli
 ```
 ```
 playing self
-exiting
+exciting an
 epic explosion
 ```
