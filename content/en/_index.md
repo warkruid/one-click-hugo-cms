@@ -1,7 +1,7 @@
 ---
 title: "Technology and Language"
 
-description: "Communicating aspects of technology in different languages"
+description: "Playing with Tech and Language"
 cascade:
   featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 ---
