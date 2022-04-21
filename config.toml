@@ -24,10 +24,10 @@ enableRobotsTXT = true
     title = "Esperimenti di Warkruid"
     weight = 1
     contentDir = "content/it"
-[languages.to]
+[languages.tok]
     title = "lipu jan Wakui"
     weight = 1
-    contentDir = "content/to"
+    contentDir = "content/tok"
 
 
 [sitemap]
