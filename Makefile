@@ -24,5 +24,4 @@ post:
 
 # push to github with TOKEN read from environment
 push:
-	source tokenfile
 	git push https://warkruid:$(TOKEN)@github.com/warkruid/one-click-hugo-cms.git --all
