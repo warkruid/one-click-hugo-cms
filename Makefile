@@ -25,3 +25,8 @@ post:
 # push to github with TOKEN read from environment
 push:
 	git push https://warkruid:$(TOKEN)@github.com/warkruid/one-click-hugo-cms.git --all
+
+pdf:
+	hugo --cleanDestinationDir --minify
+	cat ./public/all-content/index.html | wkhtmltopdf --outline-depth 2 --enable-internal-links - ./public/downloads/all-content.pdf
+	rm -r ./public/all-content
