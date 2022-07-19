@@ -1,7 +1,7 @@
 ---
 title: "POC: Semi Offline Backup Via A DataDiode"
 date: 2022-04-20T11:12:01+02:00
-draft: true
+draft: false 
 ---
 
 What:
