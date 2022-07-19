@@ -2,6 +2,7 @@
 title: "Unsplash"
 date: 2022-04-16T14:35:39+02:00
 draft: false
+featured_image: Unsplash_Logo_W.jpg
 ---
 
 I am feeling my way slowly into this whole blogging thing. 
