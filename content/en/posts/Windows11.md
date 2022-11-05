@@ -1,7 +1,7 @@
 ---
 title: "Windows11"
 date: 2022-08-07T21:02:19+02:00
-draft: true
+draft: false
 ---
 
 Windows 11 pros and cons
