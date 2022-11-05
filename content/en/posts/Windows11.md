@@ -13,6 +13,8 @@ So I am trying to list the good and the bad things I notice about windows 11 her
 (I am trying to say good things about windows 11.. Really!)
 
 GOOD
+* Stability.. No more hangs on surface tablets
+*
 
 
 BAD
