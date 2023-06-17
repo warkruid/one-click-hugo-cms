@@ -2,3 +2,4 @@ tokenfile
 resources/
 .hugo_build.lock
 public/
+Makefile
