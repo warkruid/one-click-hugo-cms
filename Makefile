@@ -13,18 +13,15 @@ args = `arg="$(filter-out $@,$(MAKECMDGOALS))" && echo $${arg:-${1}}`
 test: build
 	hugo server -D
 
+# build and start local server  in local network
 build:
 	git pull
-	hugo
+	hugo server --bind 192.168.178.25 --baseURL http://192.168.178.25
 
 # make a new post
 post:
 	hugo new posts/$(call args,"defaultstring")
 	git add content/en/posts/$(call args,"defaultstring")
-
-# push to github with TOKEN read from environment
-push:
-	git push https://warkruid:$(TOKEN)@github.com/warkruid/one-click-hugo-cms.git --all
 
 pdf:
 	hugo --cleanDestinationDir --minify
