@@ -56,8 +56,38 @@ enableRobotsTXT = true
 [permalinks]
     posts = "/:title/"
 
-[markup.goldmark.renderer]
-    unsafe = true
-    
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            linkifyProtocol = 'https'
+            strikethrough = true
+            table = true
+            taskList = true
+#        [markup.goldmark.extensions.typographer]
+#            apostrophe = '&rsquo;'
+#            disable = false
+#            ellipsis = '&hellip;'
+#            emDash = '&mdash;'
+#            enDash = '&ndash;'
+#            leftAngleQuote = '&laquo;'
+#            leftDoubleQuote = '&ldquo;'
+#            leftSingleQuote = '&lsquo;'
+#            rightAngleQuote = '&raquo;'
+#            rightDoubleQuote = '&rdquo;'
+#            rightSingleQuote = '&rsquo;'
+        [markup.goldmark.parser]
+            autoHeadingID = true
+            autoHeadingIDType = 'github'
+            wrapStandAloneImageWithinParagraph = true
+            [markup.goldmark.parser.attribute]
+                block = false
+                title = true
+        [markup.goldmark.renderer]
+            hardWraps = true 
+            unsafe = false
+            xhtml = false
     [markup.tableOfContents]
         ordered = true
