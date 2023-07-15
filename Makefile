@@ -16,7 +16,7 @@ test: build
 # build and start local server  in local network
 build:
 	git pull
-	hugo server --bind 192.168.178.25 --baseURL http://192.168.178.25
+	hugo 
 
 # make a new post
 post:
