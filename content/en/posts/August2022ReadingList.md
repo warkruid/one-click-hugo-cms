@@ -4,8 +4,8 @@ date: 2022-07-31T17:57:20+02:00
 draft: false 
 ---
 
-*Reading list Augustus 2022
-Simple Guide To Shinto. Ian Reader. 1998 (Reread) History, Religion
+**Reading list Augustus 2022
+*Simple Guide To Shinto. Ian Reader. 1998 (Reread) History, Religion
 A concise description of the Shinto Religion. I would not describe it as "simple".
 I particularly liked the description of various festivals and legends.
 The descriptions of the interaction between shinto and politics helped me to place 
