@@ -1,7 +1,5 @@
-baseURL = 'https://www.warkruid.com/'
-#languageCode = 'en-us'
-#title = "Warkruid's Experiments"
-theme = 'etch'
+baseURL = "https://www.warkruid.com/"
+theme = "etch"
 resourceDir = "./resources"
 languageCode = "en-US"
 enableInlineShortcodes = true
@@ -35,23 +33,28 @@ enableRobotsTXT = true
     favicon = ""
     site_logo = ""
     description = "Ramblings about technology, languages and everything else"
-    copyright = "Copyright c 2020 Warkruid"
+    copyright = "Copyright (c) 2023 Warkruid"
     dark = "auto"
     highlight = true
     background_color_class = "bg-black"
     recent_posts_number = 3
+
 [menu]
-    [[menu.main]]
-       identifier = "posts"
-       name = "posts"
-       title = "posts"
-       url = "/"
-       weight = 10
-    [[menu.main]]
-       identifier = "about"
-       name = "about"
-       weight = 20
+#    [[menu.main]]
+#       identifier = "posts"
+#       name = "posts"
+#       title = "posts"
+#       url = "/posts"
+#       weight = 10
+#    [[menu.main]]
+#       identifier = "about"
+#       name = "about"
+#       title = "about"
+#       url = "/about"
+#       weight = 20
+
 [permalinks]
     posts = "/:title/"
+
 [markup.goldmark.renderer]
     unsafe = true
