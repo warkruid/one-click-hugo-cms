@@ -1,7 +1,7 @@
 ---
 title: "July2023ReadingList"
 date: 2023-07-15T19:54:43+02:00
-draft: true
+draft: false
 ---
 **Readinglist July
 *Slimmer studeren. Iris & Felicitas Komarek
