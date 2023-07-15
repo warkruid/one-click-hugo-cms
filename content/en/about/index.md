@@ -15,7 +15,7 @@ It is a learning tool for me, and I hope that over time the quality of writing
 and information will improve. 
 
 
-***Caveat Emptor!***
+***Caveat Lector!***
 
 With regards,
 Warkruid.
