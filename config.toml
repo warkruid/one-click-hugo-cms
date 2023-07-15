@@ -1,9 +1,12 @@
 baseURL = 'https://www.warkruid.com/'
-languageCode = 'en-us'
-title = "Warkruid's Experiments"
-theme = 'ananke'
-#theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+#languageCode = 'en-us'
+#title = "Warkruid's Experiments"
+theme = 'etch'
 resourceDir = "./resources"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
@@ -12,23 +15,14 @@ googleAnalytics = ""
 enableRobotsTXT = true
 
 [languages]
-  [languages.en]
-    title = "Warkruid's Experiments"
+[languages.en]
+    title = "Warkruid's Weeds"
     weight = 1
     contentDir = "content/en"
-[languages.nl]
-    title = "Warkruid's Experimenten"
-    weight = 1
-    contentDir = "content/nl"
-[languages.it]
-    title = "Esperimenti di Warkruid"
-    weight = 1
-    contentDir = "content/it"
 [languages.tok]
     title = "lipu jan Wakui"
     weight = 1
     contentDir = "content/tok"
-
 
 [sitemap]
     changefreq = "monthly"
@@ -41,6 +35,23 @@ enableRobotsTXT = true
     favicon = ""
     site_logo = ""
     description = "Ramblings about technology, languages and everything else"
+    copyright = "Copyright c 2020 Warkruid"
+    dark = "auto"
+    highlight = true
     background_color_class = "bg-black"
     recent_posts_number = 3
-
+[menu]
+    [[menu.main]]
+       identifier = "posts"
+       name = "posts"
+       title = "posts"
+       url = "/"
+       weight = 10
+    [[menu.main]]
+       identifier = "about"
+       name = "about"
+       weight = 20
+[permalinks]
+    posts = "/:title/"
+[markup.goldmark.renderer]
+    unsafe = true
