@@ -1,7 +1,7 @@
 ---
 title: "August2022ReadingList"
 date: 2022-07-31T17:57:20+02:00
-draft: true
+draft: false 
 ---
 
 *Reading list Augustus 2022
