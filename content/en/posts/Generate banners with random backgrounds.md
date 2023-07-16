@@ -12,7 +12,7 @@ Or use a pictures as a placeholder for an image I will add later.
 Usually that meant I had to choose an image that I already had on my HD and resize it and add the text to it.
 Boring!
 
-So when I stumbled on http://picsum.photos I quickly hacked together a script that grabbed a random image from picsum, and added a text to it.
+So when I stumbled on https://picsum.photos I quickly hacked together a script that grabbed a random image from picsum, and added a text to it.
 Hey Presto! Random placeholder images (with or without text). 
 
 # Requirements
