@@ -19,7 +19,7 @@ Hey Presto! Random placeholder images (with or without text).
 * curl or wget
 * imagemagick
 
-
+# Script
 ```shell
 #!/bin/bash
 title=$1
@@ -40,6 +40,8 @@ $image.jpg \
 -composite $image.jpg
 ```
 
+# Test run
 ./test.sh test test 800 600 
 
+# Output
 ![Testimage generated with script](/test.jpg)
