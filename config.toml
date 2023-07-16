@@ -66,9 +66,9 @@ enableRobotsTXT = true
             strikethrough = true
             table = true
             taskList = true
-#        [markup.goldmark.extensions.typographer]
+#            [markup.goldmark.extensions.typographer]
 #            apostrophe = '&rsquo;'
-#            disable = false
+#                 disable = false
 #            ellipsis = '&hellip;'
 #            emDash = '&mdash;'
 #            enDash = '&ndash;'
