@@ -33,5 +33,9 @@ convert \
 -pointsize 35 \
 -fill white \
 -gravity center \
--size 800x150 caption:"$title"
+-size 800x150 caption:"$title" \
+$image.jpeg \
++swap \
+-gravity south \
+-composite $image.jpg
 ```
