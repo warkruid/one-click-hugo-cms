@@ -44,4 +44,4 @@ $image.jpg \
 ./test.sh test test 800 600 
 
 # Output
-![Testimage generated with script](/test.jpg)
+![Testimage generated with script](./images/test.jpg)
