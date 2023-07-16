@@ -1,7 +1,7 @@
 ---
 title: "Generate Banners With Random Backgrounds"
 date: 2023-07-16T11:06:50+02:00
-draft: true
+draft: false 
 categories: [publishing, development]
 tags: [random, banners, hugo, curl, trivia]
 ---
