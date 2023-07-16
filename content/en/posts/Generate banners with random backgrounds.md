@@ -39,3 +39,7 @@ $image.jpg \
 -gravity south \
 -composite $image.jpg
 ```
+
+./test.sh test test 800 600 
+
+![Testimage generated with script](/test.jpg)
