@@ -2,6 +2,8 @@
 title: "Make and Hugo"
 date: 2022-04-02T20:49:25+02:00
 draft: false 
+categories: [development, publishing]
+tags: [make, hugo, commandline]
 ---
 
 After a bit of experimenting with Hugo on the command line I quickly grew tired of typing in long and complex commandlines. Especially the commandline to push the repo to github was a special PITA. 

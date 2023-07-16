@@ -2,6 +2,8 @@
 title: "July2023ReadingList"
 date: 2023-07-15T19:54:43+02:00
 draft: false
+categories: [readinglist]
+tags: [book, review]
 ---
 # Readinglist July
 * Slimmer studeren. Iris & Felicitas Komarek

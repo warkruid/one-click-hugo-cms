@@ -2,6 +2,8 @@
 title: "POC: Semi Offline Backup Via A DataDiode"
 date: 2022-04-20T11:12:01+02:00
 draft: false 
+categories: [hardware, DIY, security]
+tags: [datadiode, diy, security]
 ---
 
 What:

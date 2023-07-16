@@ -2,7 +2,8 @@
 title: "OpenSSL: Living Of The Land"
 date: 2022-04-08T09:18:12+02:00
 draft: false
-featured_image: LivingOffTheLand.jpg
+categories: [security]
+tags: [ssl, smtp, hack]
 ---
 
 There was a question on stackoverflow about the OpenSSL s_client functionality in relation to SMTP mail.
