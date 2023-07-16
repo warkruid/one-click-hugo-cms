@@ -16,7 +16,7 @@ So when I stumbled on https://picsum.photos I quickly hacked together a script t
 Hey Presto! Random placeholder images (with or without text). 
 
 # Requirements
-* curl or get
+* curl or wget
 * imagemagick
 
 
