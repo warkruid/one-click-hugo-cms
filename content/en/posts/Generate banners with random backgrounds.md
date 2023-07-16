@@ -28,7 +28,7 @@ width=$3
 height=$4
 wget -q https://picsum.photos/$width/$height -O $image.jpg
 convert \
--background '#0008' \ 
+-background '#0008' \
 -font Arvo \
 -pointsize 35 \
 -fill white \
