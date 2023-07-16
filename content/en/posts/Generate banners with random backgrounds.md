@@ -34,7 +34,7 @@ convert \
 -fill white \
 -gravity center \
 -size 800x150 caption:"$title" \
-$image.jpeg \
+$image.jpg \
 +swap \
 -gravity south \
 -composite $image.jpg
