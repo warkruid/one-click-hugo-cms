@@ -1,5 +1,5 @@
 baseURL = "https://www.warkruid.com/"
-theme = "etch"
+theme = "hugo-dead-simple"
 resourceDir = "./resources"
 languageCode = "en-US"
 enableInlineShortcodes = true
