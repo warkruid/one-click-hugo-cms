@@ -22,11 +22,13 @@ Who:
 
 How:
     Connect two SOC's via a homemade data diode with usb-to-serial circuits
-    The first SOC 1) stores the incoming backups, 
-                  2) compresses them 
+    The first SOC 
+		  1) stores the incoming backups, 
+                  2) compresses them (Maybe convert certain formats to text only?)
                   3) and generates error correcting blocks.
                   4) The backups and error correcting blocks are then transmitted over the datadiode to the seccond SOC
-    The second SOC then 1) checks the received backup against the error blocks. 
+    The second SOC then 
+			1) checks the received backup against the error blocks. 
                         2) In case of errors it fixes the backup.
                         3) Uncompresses the backup.
                         4) Generates logs with extensive error messages
