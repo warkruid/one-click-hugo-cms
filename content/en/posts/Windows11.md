@@ -22,7 +22,7 @@ GOOD
 BAD
 * Windows 11 tries to force users into an online login and subcription model.
 * Non microsoft programs are harder to install. Microsoft tries to force their online store on users
-* More spyware... ahem... unnessecary services that are harder and harder to uninstall.. Especially services that try to install Microsoft office programms.  
+* More spyware... ahem... unnessecary services that are harder and harder to uninstall.. Especially services that try to install Microsoft office programs.  
 
  
 
