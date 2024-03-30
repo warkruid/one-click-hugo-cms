@@ -3,7 +3,7 @@ title: "OpenSSL: Living Of The Land"
 date: 2022-04-08T09:18:12+02:00
 draft: false
 categories: [security]
-tags: [ssl, smtp, hack]
+tags: [openssl, ssl, smtp, hack]
 ---
 
 There was a question on stackoverflow about the OpenSSL s_client functionality in relation to SMTP mail.
@@ -51,7 +51,4 @@ QUIT\r
 
 This set of commands is fired blindly at openssl and there is no way to detect if something goes wrong.
 It succeeds or not.
-
-
-
 
