@@ -8,7 +8,7 @@ draft: false
 
 ## Introduction
 
-This short article describes how I made a python script to generate short text in a chosen language at a particular level.   It is based on the [OpenAI Cookbook](https://github.com/openai/openai-cookbook) examples and the european language levels [Common European Framework of Reference (CEFR)(https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions).
+This short article describes how I made a python script to generate short text in a chosen language at a particular level.   It is based on the [OpenAI Cookbook](https://github.com/openai/openai-cookbook) examples and the european language levels [Common European Framework of Reference (CEFR)](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions).
 At the end of the article I present the prototype python code.
 
 ## Motivation
