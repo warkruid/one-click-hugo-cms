@@ -1,22 +1,29 @@
 ---
 title: "OpenAI And Language Learning"
 date: 2024-09-23T09:55:02+02:00
-draft: true
+draft: false 
 ---
 
 # OpenAI And Language Learning
 
 ## Introduction
 
-This short article describes how I made a python script based on the OpenAI examples (linkneeded) and the european language levels Common European Framework of Reference (CEFR). https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions
-At the end of the article I present the prototype python code'
+This short article describes how I made a python script to generate short text in a chosen language at a particular level.   It is based on the [OpenAI Cookbook](https://github.com/openai/openai-cookbook) examples and the european language levels [Common European Framework of Reference (CEFR)(https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions).
+At the end of the article I present the prototype python code.
 
 ## Motivation
 One of the things I've found fustrating while learning a language on my own is the difficulty of finding reading material that is 
  * on my level 
  * interesting to me.
 
-While playing with the aforementioned OpenAI python examples it occured to me that I could try to to use the european language levels (A1 A2 B1 B2 C1 C2) to generate texts in foreign languages at those levels.
+While playing with the aforementioned OpenAI python examples it occured to me that I could try to to use the european language levels generate texts in foreign languages at those levels.
+Those levels are:
+ * A1 Basic User. Basic phrases and everyday expressions
+ * A2 Basic User. Can understand sentences and frequently used expressions related to personal, family, shopping, geography work
+ * B1 Independent User. Can understand the main points of plain speech/texts
+ * B2 Independent User. Can understand the main ideas of complex text/speech (abstract and concrete)
+ * C1 Proficient User. Can understand a wide range of demanding texts. 
+ * C2 Proficient User. Can understand with ease virtually everything heard or read. 
 
 Several attempts later. I had a prototype script and prompt that seemed to work reasonably well. I added a bunch of commandline options an defaults and got something halfway decent.
 
@@ -32,30 +39,19 @@ You can give this script the following arguments:
 
 ```
 
-I now use this script to generate daily pieces of text in italian an latin to read during my commute to and from work. 
-
-I run it under termux (link needed) on my Android telephone. 
-
-## Results
-
-This script ticks all the following boxes for me.
- * Interesting text to read? Check
- * In a language I'm learning? Check
- * On a level I can manage? Check
- * Usable on a phone? Check
- * During an otherwise boring an nonproductive time? Check
-
 
 # Running the code
 
 ## OpenAI account
-To use this with OpenAI, I recommend you get a "pay as you go" account. It is the cheapest way to use OpenAI for personal use. Don't forget to lower the monthly limit from 120 dollars to say 5 dollars. That way you limit the damage from possible runaway programs.
+To use this with OpenAI, I recommend you get a ["pay as you go"](https://lifehacker.com/openai-s-pay-as-you-go-is-the-best-way-to-use-chatgpt-1850318349) account. It is the cheapest way to use OpenAI for personal use. Don't forget to lower the monthly limit from 120 dollars to say 5 dollars. That way you limit the damage from possible runaway programs.
 
 ## Setup
 Generate an openAI api key and store it in the file .env in the same directory as the python file. 
+
 ```
 OPEN_AI_KEY="youopenaikeyhere"
 ```
+
 If you use git, don't forget to add the .env file to the .gitignore file.
 
 ## Caveats
@@ -209,3 +205,17 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
+
+## Conclusion 
+
+This script ticks all the following boxes for me.
+ * Interesting text to read? Check
+ * In a language I'm learning? Check
+ * On a level I can manage? Check
+ * Usable on a phone? Check
+ * During an otherwise boring an nonproductive time? Check
+
+I now use this script to generate daily pieces of text in italian an latin to read during my commute to and from work. 
+
+I run it under [termux](https://termux.dev/en/) on my Android telephone. 
+
