@@ -2,6 +2,8 @@
 title: "OpenAI And Language Learning"
 date: 2024-09-23T09:55:02+02:00
 draft: false 
+categories: [ OpenAI ]
+tags: [ OpenAI, python, language ]
 ---
 ## Introduction
 
@@ -36,6 +38,13 @@ You can give this script the following arguments:
 
 ```
 
+## Caveats
+When set to the C2 level the results can be rather ..ahem.. poetic!
+
+When generating a piece of text in a language like latin about a modern subject, the result can be anything from hilarious to absurd.
+(I haven't dared to try Klingon yet)
+
+
 
 # Running the code
 
@@ -45,17 +54,12 @@ To use this with OpenAI, I recommend you get a ["pay as you go"](https://lifehac
 ## Setup
 Generate an openAI api key and store it in the file .env in the same directory as the python file. 
 
+### Example .env 
 ```
-OPEN_AI_KEY="youopenaikeyhere"
+OPEN_AI_KEY="youropenaikeyhere"
 ```
 
 If you use git, don't forget to add the .env file to the .gitignore file.
-
-## Caveats
-When set to the C2 level the results can be rather ..ahem.. poetic!
-
-When generating a piece of text in a language like latin about a modern subject, the result can be anything from hilarious to absurd.
-(I haven't dared to try Klingon yet)
 
 ## Examples
 
@@ -83,8 +87,7 @@ Note the longer more complex sentences and extended vocabulary
 
 
 
-
-## python prototype
+## Code 
 
 
 ```
@@ -103,7 +106,7 @@ client = OpenAI()
 
 # Set the prompt
 prompt_role = '''
-You are a expert in languages.
+You are an expert languages teacher.
 Your task is to write text
 on the SUBJECT,
 in the LANGUAGE,
@@ -115,7 +118,8 @@ the LENGTH, the STYLE, The FORMAT and the TONE
 
 def ask_chatgpt(messages):
     response = client.chat.completions.create(model="gpt-4o-mini",
-                                              messages=messages)
+                                              messages=messages,
+                                              max_tokens=800)
     return (response.choices[0].message.content)
 
 # populate the prompt with the given arguments
@@ -142,7 +146,7 @@ def main() -> None:
     parser.add_argument(
             "-l",
             "--length",
-            type=int, help="Lenght of article in characters",
+            type=int, help="Lenght of article in words",
             default=500)
     parser.add_argument(
             "-L",
@@ -205,14 +209,15 @@ if __name__ == "__main__":
 
 ## Conclusion 
 
-This script ticks all the following boxes for me.
- * Interesting text to read? Check
- * In a language I'm learning? Check
- * On a level I can manage? Check
- * Usable on a phone? Check
- * During an otherwise boring an nonproductive time? Check
-
 I now use this script to generate daily pieces of text in italian an latin to read during my commute to and from work. 
+
+This script ticks all the following boxes for me.
+ * Interesting text to read? Check!
+ * In a language I'm learning? Check
+ * On a level I can manage? Check!
+ * Usable on a phone? Check!
+ * During otherwise boring an nonproductive times? Double Check!
+
 
 I run it under [termux](https://termux.dev/en/) on my Android telephone. 
 
