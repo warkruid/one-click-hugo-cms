@@ -15,7 +15,8 @@ One of the things I've found fustrating while learning a language on my own is t
  * on my level 
  * interesting to me.
 
-While playing with the aforementioned OpenAI python examples it occured to me that I could try to to use the european language levels generate texts in foreign languages at those levels.
+While playing with the aforementioned OpenAI python examples it occured to me that I could try to to use the european language levels to generate texts in foreign languages at those levels.
+
 Those levels are:
  * A1 Basic User. Basic phrases and everyday expressions
  * A2 Basic User. Can understand sentences and frequently used expressions related to personal, family, shopping, geography work
@@ -220,4 +221,12 @@ This script ticks all the following boxes for me.
 
 
 I run it under [termux](https://termux.dev/en/) on my Android telephone. 
+
+## Caveats
+
+When set to the C2 level the results can be rather ..ahem.. poetic!
+
+When generating a piece of text in a language like latin about a modern subject, the result can be anything from hilarious to absurd.
+(I haven't dared to try Klingon yet)
+
 

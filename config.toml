@@ -8,7 +8,8 @@ pygmentsUseClasses = true
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 10
+#Paginate = 10
+pagination.pagersize = 10
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -17,10 +18,10 @@ enableRobotsTXT = true
     title = "Warkruid's Weeds"
     weight = 1
     contentDir = "content/en"
-[languages.tok]
-    title = "lipu jan Wakui"
-    weight = 1
-    contentDir = "content/tok"
+#[languages.tok]
+#    title = "lipu jan Wakui"
+#    weight = 1
+#    contentDir = "content/tok"
 
 [sitemap]
     changefreq = "monthly"
@@ -33,19 +34,19 @@ enableRobotsTXT = true
     favicon = ""
     site_logo = ""
     description = "Ramblings about technology, languages and everything else"
-    copyright = "Copyright (c) 2023 Warkruid"
+    copyright = "Copyright (c) 2024 Warkruid"
     dark = "auto"
     highlight = true
     background_color_class = "bg-black"
     recent_posts_number = 3
 
 [menu]
-#    [[menu.main]]
-#       identifier = "posts"
-#       name = "posts"
-#       title = "posts"
-#       url = "/posts"
-#       weight = 10
+    [[menu.main]]
+       identifier = "posts"
+       name = "posts"
+       title = "posts"
+       url = "/posts"
+       weight = 10
 #    [[menu.main]]
 #       identifier = "about"
 #       name = "about"
