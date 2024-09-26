@@ -41,12 +41,12 @@ enableRobotsTXT = true
     recent_posts_number = 3
 
 [menu]
-    [[menu.main]]
-       identifier = "posts"
-       name = "posts"
-       title = "posts"
-       url = "/posts"
-       weight = 10
+#    [[menu.main]]
+#       identifier = "posts"
+#       name = "posts"
+#       title = "posts"
+#       url = "/posts"
+#       weight = 10
 #    [[menu.main]]
 #       identifier = "about"
 #       name = "about"
