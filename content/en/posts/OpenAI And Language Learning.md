@@ -217,7 +217,7 @@ This script ticks all the following boxes for me.
  * In a language I'm learning? Check
  * On a level I can manage? Check!
  * Usable on a phone? Check!
- * During otherwise boring an nonproductive times? Double Check!
+ * During otherwise boring and nonproductive times? Double Check!
 
 
 I run it under [termux](https://termux.dev/en/) on my Android telephone. 
