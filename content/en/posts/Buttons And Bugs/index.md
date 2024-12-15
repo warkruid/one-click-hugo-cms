@@ -1,8 +1,9 @@
 ---
-title: Buttons And Bugs
-date: 2024-12-15T20:00:00+00:00
+title: "Buttons and Bugs"
+date: 2024-12-15T19:22:48Z
 draft: false
 ---
+
 
 I managed to setup hugo and git under Termux on my phone. Using zettelnotes I can now make pages for my mini blog. Yay! 
 
