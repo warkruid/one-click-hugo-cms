@@ -227,6 +227,5 @@ I run it under [termux](https://termux.dev/en/) on my Android telephone.
 When set to the C2 level the results can be rather ..ahem.. poetic!
 
 When generating a piece of text in a language like latin about a modern subject, the result can be anything from hilarious to absurd.
-(I haven't dared to try Klingon yet)
 
 
