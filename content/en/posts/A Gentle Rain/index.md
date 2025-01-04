@@ -1,7 +1,7 @@
 ---
 title: A Gentle Rain
 date: 2025-01-04T12:00:00Z
-draft: true
+draft: false
 categories: [games]
 tags: [AGentleRain]
 ---
